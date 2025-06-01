@@ -32,7 +32,7 @@ A simple yet powerful React-based To-Do List application that allows users to:
 
 ### 🏷️ Filter by Tag
 
-![Filter by Tag](./public/screenshots/FilterbyTag.png)
+![Filter by Tag](./public/Screenshots/FilterbyTag.png)
 
 ---
 
