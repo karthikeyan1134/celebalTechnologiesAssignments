@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# 📝 React To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple yet powerful React-based To-Do List application that allows users to:
 
-## Available Scripts
+- ✅ Add tasks with validation
+- ✏️ Edit and update tasks
+- ✔️ Mark tasks as completed
+- ❌ Delete tasks
+- 🔍 Filter/search by task text or tag
+- ⬆️ Sort tasks (ascending)
+- 💾 Persistent storage using `localStorage`
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏠 Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Home](./Public/screenshots/Home.png)
 
-### `npm test`
+### ➕ Adding a Task
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Adding Task](./Public/screenshots/Adding_Task.png)
 
-### `npm run build`
+### ✏️ Edit a Task
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Edit Task](./Public/screenshots/EditTask.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔍 Search Tasks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Search](./Public/screenshots/Search.png)
 
-### `npm run eject`
+### 🏷️ Filter by Tag
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Filter by Tag](./Public/screenshots/FilterbyTag.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the repository
 
-## Learn More
+```bash
+git https://github.com/karthikeyan1134/celebalTechnologiesAssignments/tree/main/assignment_2
+cd your-repo-name
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### 3. Run the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✅ Testing Guidance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Feature              | Action                                   | Expected Result                           |
+| -------------------- | ---------------------------------------- | ----------------------------------------- |
+| **Add Task**         | Enter text and click **Add**             | Task is added to the list                 |
+| **Input Validation** | Click **Add** without text               | Task is not added                         |
+| **Mark Complete**    | Click task label                         | Text is struck through                    |
+| **Edit Task**        | Click edit icon, change text, click save | Task updates with new content             |
+| **Delete Task**      | Click trash/delete icon                  | Task is removed                           |
+| **Search Tasks**     | Type in search field                     | Task list filters in real-time            |
+| **Filter by Tag**    | Select tag from dropdown                 | Only matching tasks are shown             |
+| **Sort Tasks**       | Select sort option (e.g., ascending)     | Tasks reorder accordingly                 |
+| **Local Storage**    | Refresh the browser                      | Tasks remain (persisted via localStorage) |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠 Built With
 
-### Deployment
+- [React](https://reactjs.org/)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+src/
+├── components/
+│   └── TodoApp.js
+│   └── style.css
+├── App.js
+├── index.js
+├── App.css
+├── index.css
+public/
+├── screenshots/
+│   ├── Home.png
+│   ├── Adding_Task.png
+│   ├── EditTask.png
+│   ├── Search.png
+│   └── FilterbyTag.png
+```
+
+---
+
+## 👨‍💻 Author
+
+**[Karthikeyan Akkpalli]**  
+[karthikeyan1134](https://github.com/karthikeyan1134).
