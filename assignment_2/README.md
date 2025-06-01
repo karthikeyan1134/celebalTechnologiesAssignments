@@ -16,19 +16,19 @@ A simple yet powerful React-based To-Do List application that allows users to:
 
 ### 🏠 Home Page
 
-![Home](./public/screenshots/Home.png)
+![Home](./public/Screenshots/Home.png)
 
 ### ➕ Adding a Task
 
-![Adding Task](./public/screenshots/Adding_Task.png)
+![Adding Task](./public/Screenshots/Adding_Task.png)
 
 ### ✏️ Edit a Task
 
-![Edit Task](./public/screenshots/EditTask.png)
+![Edit Task](./public/Screenshots/EditTask.png)
 
 ### 🔍 Search Tasks
 
-![Search](./public/screenshots/Search.png)
+![Search](./public/Screenshots/Search.png)
 
 ### 🏷️ Filter by Tag
 
